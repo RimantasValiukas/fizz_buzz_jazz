@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class FizzBuzz {
+public class FizzBuzzJazz {
 
     private final int n;
     private final Map<Integer, String> divisors;
 
-    public FizzBuzz(int n) {
+    public FizzBuzzJazz(int n) {
         this.n = n;
         divisors= new TreeMap<>(Map.of(3, "Fizz", 5, "Buzz", 7, "Jazz"));
         printResult();
